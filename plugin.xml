@@ -56,12 +56,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
             <array>
                 <string>applinks:$APP_DOMAIN_NAME</string>
+                <string>activitycontinuation:$APP_DOMAIN_NAME</string>
             </array>
         </config-file>
 
         <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
             <array>
                 <string>applinks:$APP_DOMAIN_NAME</string>
+                <string>activitycontinuation:$APP_DOMAIN_NAME</string>
             </array>
         </config-file>
 
